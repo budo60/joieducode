@@ -1,12 +1,6 @@
 <?php
 require_once 'partials/header.php';
 
-$genders = array(
-	1 => 'Homme',
-	2 => 'Femme'
-);
-
-
 // Récupérer les données du formulaire depuis le tableau $_POST
 $firstname = !empty($_POST['firstname']) ? strip_tags($_POST['firstname']) : '';
 $lastname = !empty($_POST['lastname']) ? strip_tags($_POST['lastname']) : '';

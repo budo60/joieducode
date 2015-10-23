@@ -17,3 +17,9 @@ $(function() {
 	});
 
 });
+
+
+
+$(document).ready(function(){
+    $('#table-dynamic').DataTable();
+});
